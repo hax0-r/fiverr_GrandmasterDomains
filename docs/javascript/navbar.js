@@ -19,9 +19,9 @@ navbar.innerHTML = `
                                     class="fa-solid fa-angle-down group-hover:rotate-180 transition-all duration-500"></i>
                                 <div id="dropdownMenu"
                                     class="absolute hidden w-52 fadeIn group-hover:flex top-5 pt-2 left-0 bg-[#080909] z-30 flex-col">
-                                    <a href="/ainuko.html"
-                                        class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">Ainuko</a>
                                     <a href="#"
+                                        class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">Ainuko</a>
+                                    <a href="/grandmaster.html"
                                         class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">Grandmaster</a>
                                     <a href="#"
                                         class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">MardAgamra</a>
@@ -77,8 +77,8 @@ navbar.innerHTML = `
                     <div id="content-1" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
                         <div class="pb-5">
                             <ul class="space-y-6 pl-3 pt-6 text-gray-400">
-                                <li><a class="text-nowrap" href="#">Grandmaster</a></li>
-                                <li><a class="text-nowrap" href="/ainuko.html">Ainuko</a></li>
+                                <li><a class="text-nowrap" href="/grandmaster.html">Grandmaster</a></li>
+                                <li><a class="text-nowrap" href="#">Ainuko</a></li>
                                 <li><a class="text-nowrap" href="#">MardAgamra</a></li>
                             </ul>
                         </div>

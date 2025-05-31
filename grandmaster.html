@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandmaster</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="./docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+
+<body class="bg-[#1c1b19] overflow-x-hidden">
+
+    <img src="/docs/assets/images/rounded.png" class="absolute top-40 -left-40 w-80 blur opacity-[10%]" alt="">
+    <img src="/docs/assets/images/rounded.png" class="absolute lg:block hidden top-96 -right-40 w-80 blur opacity-[10%]"
+        alt="">
+
+    <div id="bottomToTopScroll"></div>
+    <div id="navbar"></div>
+
+    <section class="md:mt-40 mt-28 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="flex items-center justify-center text-center gap-5">
+            <h2 data-aos="fade-up" class="text-zinc-200 font-semibold md:text-5xl text-3xl">Grandmaster</h2>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="200"
+            class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-x-5 md:gap-y-16 gap-y-10 w-full max-w-6xl mx-auto md:mt-14 mt-10">
+
+            <div class="w-full openPopup1 transition-all duration-500 hover:-translate-y-3 cursor-pointer">
+                <div class="relative">
+                    <p class="absolute bg-[#c99b39] px-3 text-white py-1 text-sm top-2 left-2 rounded-md">
+                        Top Domain
+                    </p>
+                    <img src="/docs/assets/images/ainuko/ainuko logo.png"
+                        class="w-full h-96 object-cover rounded-lg mb-3" alt="">
+                </div>
+                <h2 class="text-white font-semibold text-xl">AINUKO.COM</h2>
+                <p class="text-zinc-300 mt-1 text-sm">Child of Mystery. Born to Lead.</p>
+            </div>
+            <div class="w-full openPopup2 transition-all duration-500 hover:-translate-y-3 cursor-pointer">
+                <div class="relative">
+                    <p class="absolute bg-[#c99b39] px-3 text-white py-1 text-sm top-2 left-2 rounded-md">
+                        Top Domain
+                    </p>
+                    <img src="/docs/assets/images/ainuko/MardAgamra logo.png"
+                        class="w-full h-96 object-cover rounded-lg mb-3" alt="">
+                </div>
+                <h2 class="text-white font-semibold text-xl">MardAgamra.com</h2>
+                <p class="text-zinc-300 mt-1 text-sm">The Man Beyond Measure - Not a Brand, But a Legacy.</p>
+            </div>
+            <div class="w-full openPopup3 transition-all duration-500 hover:-translate-y-3 cursor-pointer">
+                <img src="/docs/assets/images/ainuko/chinatastic logo.png"
+                    class="w-full h-96 object-cover rounded-lg mb-3" alt="">
+                <h2 class="text-white font-semibold text-xl">CHINATASTIC.COM
+                </h2>
+                <p class="text-zinc-300 mt-1 text-sm">It’s not just fantastic. It’s Chinatastic.</p>
+            </div>
+            <div class="w-full openPopup4 transition-all duration-500 hover:-translate-y-3 cursor-pointer">
+                <img src="/docs/assets/images/ainuko/gridracer logo.png"
+                    class="w-full h-96 object-cover rounded-lg mb-3" alt="">
+                <h2 class="text-white font-semibold text-xl">GRIDRACER.COM</h2>
+                <p class="text-zinc-300 mt-1 text-sm">Built for speed. Tuned for the future.</p>
+            </div>
+            <div class="w-full openPopup5 transition-all duration-500 hover:-translate-y-3 cursor-pointer">
+                <img src="/docs/assets/images/ainuko/clipbotics logo.png"
+                    class="w-full h-96 object-cover rounded-lg mb-3" alt="">
+                <h2 class="text-white font-semibold text-xl">CLIPBOTICS.COM</h2>
+                <p class="text-zinc-300 mt-1 text-sm">Automation. Precision. Elegance.</p>
+            </div>
+            <div class="w-full openPopup6 transition-all duration-500 hover:-translate-y-3 cursor-pointer">
+                <img src="/docs/assets/images/ainuko/clevermorph logo.png"
+                    class="w-full h-96 object-cover rounded-lg mb-3" alt="">
+                <h2 class="text-white font-semibold text-xl">CLEVERMORPH.COM</h2>
+                <p class="text-zinc-300 mt-1 text-sm">Think. Adapt. Dominate</p>
+            </div>
+            <div class="w-full openPopup7 transition-all duration-500 hover:-translate-y-3 cursor-pointer">
+                <img src="/docs/assets/images/ainuko/zapclouds logo.png"
+                    class="w-full h-96 object-cover rounded-lg mb-3" alt="">
+                <h2 class="text-white font-semibold text-xl">ZAPCLOUDS.COM</h2>
+                <p class="text-zinc-300 mt-1 text-sm">Speed. Scalability. Shock Value</p>
+            </div>
+            <div class="w-full openPopup8 transition-all duration-500 hover:-translate-y-3 cursor-pointer">
+                <img src="/docs/assets/images/ainuko/MyrHeka logo.png" class="w-full h-96 object-cover rounded-lg mb-3"
+                    alt="">
+                <h2 class="text-white font-semibold text-xl">MYRHEKA.COM</h2>
+                <p class="text-zinc-300 mt-1 text-sm">Ancient tech meets modern consciousness.</p>
+            </div>
+            <div class="w-full openPopup9 transition-all duration-500 hover:-translate-y-3 cursor-pointer">
+                <img src="/docs/assets/images/ainuko/lycurguslabs logo.png"
+                    class="w-full h-96 object-cover rounded-lg mb-3" alt="">
+                <h2 class="text-white font-semibold text-xl"> The Lycurgus Cup</h2>
+                <p class="text-zinc-300 mt-1 text-sm">LycurgusLabs is named after one of the most mysterious and
+                    advanced artifacts from the ancient</p>
+            </div>
+
+        </div>
+
+        <div class="flex items-center gap-8 justify-center md:mt-16 mt-10">
+            <a href="/grandmaster.html"
+                class="w-10 block flex items-center justify-center h-10 border border-gray-200 rounded-lg text-zinc-200 cursor-pointer hover:bg-gray-200 hover:text-black transition-all duration-500">
+                <i class="fa-solid fa-angle-left"></i>
+            </a>
+
+            <p class="text-slate-200">
+                Page <strong class="text-white">1</strong> of&nbsp;<strong class="text-white">2</strong>
+            </p>
+
+            <a href="/grandmaster-2.html"
+                class="w-10 block flex items-center justify-center h-10 border border-gray-200 rounded-lg text-zinc-200 cursor-pointer hover:bg-gray-200 hover:text-black transition-all duration-500">
+                <i class="fa-solid fa-angle-right"></i>
+            </a>
+        </div>
+
+
+    </section>
+
+    <div id="popup1" style="display: none;"
+        class="fixed border w-full h-screen top-0 left-0 z-40 transition-all duration-500 p-5 fadeIn flex items-center justify-center">
+        <div
+            class="fixed close1 fadeIn bg-[#0000009f] w-full h-screen top-0 left-0  transition-all duration-500 hidden">
+        </div>
+        <i class="fa-solid fa-xmark text-white text-2xl absolute top-5 right-5 cursor-pointer close1"></i>
+        <div
+            class="max-w-7xl w-full mx-auto p-5 rounded-lg max-h-[80vh] popup h-full overflow-auto md:py-10 relative z-20 bg-[#1c1b19]">
+            <p class="text-white">
+                Ainuko—a name whispered through the winds of forgotten forests, carved into stone by the ancient and
+                the sacred. <br><br>
+                Ainu → mysterious, indigenous, sacredKo → feminine, elegant, legacyAinuko → mystical origin. Child
+                of mystery. Pure lineage. <br><br>
+                The Ainu people are the indigenous inhabitants of northern Japan, especially Hokkaido. With a
+                culture and language distinct from the dominant Japanese majority, the Ainu represent a living link
+                to a deep, mystical past. Their traditions speak of spiritual harmony with nature, ancestral
+                reverence, and a quiet strength that defies time. <br><br>
+                The Ainu language, almost lost to time, is a linguistic enigma—an isolate with no proven relation to
+                any other language family. It holds within it echoes of ancient cosmology, wisdom, and identity.
+                Today, its revival is a symbol of cultural resilience. <br><br>
+                Ainuko is not just a domain.It is a myth reborn. A story waiting to be worn. A name destined to echo
+                across industries. <br><br>
+                Whether crafted for a luxury fashion house, an elite techwear label, a visionary AI entity, a
+                premium gaming brand, or a modern cultural movement—Ainuko.com stands alone. <br><br>
+                It could front a digital art collective, an immersive metaverse experience, a next-gen biotech firm,
+                or an avant-garde media studio. <br><br>
+                Ainuko is not limited by industry—it defines them. <br><br>
+                It is untamed. Unmatched. Unforgotten. <br><br>
+                This domain is available for exclusive acquisition.Serious offers only. No marketplace listings.This
+                is legacy-level brand equity. <br><br>
+                To inquire: info@grandmasterdomains.com <br><br>
+                It’s not just a name. It’s a lineage.
+            </p>
+        </div>
+    </div>
+    <div id="popup2" style="display: none;"
+        class="fixed border w-full h-screen top-0 left-0 z-40 transition-all duration-500 p-5 fadeIn flex items-center justify-center">
+        <div
+            class="fixed close2 fadeIn bg-[#0000009f] w-full h-screen top-0 left-0  transition-all duration-500 hidden">
+        </div>
+        <i class="fa-solid fa-xmark text-white text-2xl absolute top-5 right-5 cursor-pointer close2"></i>
+        <div
+            class="max-w-7xl w-full mx-auto p-5 rounded-lg max-h-[80vh] popup h-full overflow-auto md:py-10 relative z-20 bg-[#1c1b19]">
+            <p class="text-white">MardAgamra.com isn't a random domain name. It is a vessel of ancient truth, courage,
+                sacrifice, and
+                moral depth. The name is rooted in real history - Mard Agamra, which means "The Man Beyond
+                Measure", was another revered title for Guru Gobind Singh Ji, the tenth and final Sikh Guru. A
+                warrior, poet, and spiritual visionary, he shaped the soul of an entire civilization and left behind a
+                blueprint for valor that still echoes today. <br><br>
+                The Golden Arrow
+                One of the most powerful stories about Guru Gobind Singh Ji is his use of golden arrow tips in battle
+                - not for prestige, but for compassion. If the enemies should fall in battle to his arrows, their
+                families
+                could retrieve the golden arrowheads and sell them to survive. And if an enemy survived - wounded
+                but alive - he could retrieve the golden arrow himself and use its value to pay for his medical
+                treatment and support his loved ones. <br><br>
+                This wasn't just war. It was ethics in motion. A divine warrior's moral compass, reflected in every
+                shot fired. <br><br>
+                Every arrow was a message: <br><br>
+                "Even when I wound you, I protect your future." <br><br>
+                This is what made him a Mard Agamra - a man beyond the reach of ordinary measure. <br><br>
+                Why This Domain Matters <br><br>
+                MardAgamra.com is not just a name. It is an identity. A digital monument to timeless virtues -
+                courage, integrity, empathy, sacrifice, and divine leadership. The name evokes reverence. Emotion.
+                Legacy. <br><br>
+                This brand can become: <br><br>
+                - A luxury martial-arts or combat lifestyle brand
+               <br> - A documentary or historical mini-series on valor and ethics
+               <br> - A motivational movement rooted in real heroism, not social media noise
+               <br> - A spiritual warrior academy teaching moral strength and discipline
+               <br> - Or even an elite NFT project inspired by ancient leadership codes <br><br>
+                Beyond Branding - A Message to the Modern World
+                In a time of digital noise and shallow gimmicks, MardAgamra.com is a reminder of deeper truth. It's
+                a brand that stands for something. For legacy. For sacrifice. For honor. For doing the right thing,
+                even when the world doesn't reward it. <br><br>
+                This name is timeless. It doesn't belong to a trend - it belongs to history, and to the future.
+                Let the world remember: <br><br>
+                The Man Beyond Measure never dies. His name becomes legend. <br><br>
+                And now, his story lives on at MardAgamra.com. <br><br>
+                MardAgamra.com stands for moral virtue, heroism, humanitarianism, ethics, honor, moral depth,
+                valor, and protecting the future. <br><br>
+                It's your turn to give this powerful digital relic a place in history
+            </p>
+        </div>
+    </div>
+    <div id="popup3" style="display: none;"
+        class="fixed border w-full h-screen top-0 left-0 z-40 transition-all duration-500 p-5 fadeIn flex items-center justify-center">
+        <div
+            class="fixed close3 fadeIn bg-[#0000009f] w-full h-screen top-0 left-0  transition-all duration-500 hidden">
+        </div>
+        <i class="fa-solid fa-xmark text-white text-2xl absolute top-5 right-5 cursor-pointer close3"></i>
+        <div
+            class="max-w-7xl w-full mx-auto p-5 rounded-lg max-h-[80vh] popup h-full overflow-auto md:py-10 relative z-20 bg-[#1c1b19]">
+            <p class="text-white">Chinatastic is more than a name. It’s an attitude. A celebration of scale, ambition,
+                innovation, and
+                the unstoppable engine of Chinese industry. <br><br>
+                From the world's largest factories to the fastest-growing tech empires. <br><br>
+                From electric cars and AI to luxury goods and digital influencers. <br><br>
+                The future doesn’t just pass through China — it launches from it. <br><br>
+                Chinatastic.com captures the bold energy of a country that creates more, moves faster, and
+                influences deeper than any other. It’s a domain made for: <br><br>
+                Export giants and sourcing platforms
+                Tech startups, fintechs, or super apps
+                Global eCommerce hubs and cross-border media brands
+                Lifestyle and fashion channels inspired by East-Asian modernism
+                This name is loud. It’s confident. It’s brand-ready. <br><br>
+                Whether it headlines a new logistics platform or becomes the face of a consumer empire, Chinatastic
+                brings a voice that’s global, viral, and unmistakably bold. <br><br>
+                This domain is available for exclusive acquisition.Serious inquiries only. No marketplace
+                listings.This is global-scale brand potential. <br><br>
+                To inquire: info@grandmasterdomains.com <br><br>
+                It’s not just a domain. It’s a movement. <br><br>
+            </p>
+        </div>
+    </div>
+    <div id="popup4" style="display: none;"
+        class="fixed border w-full h-screen top-0 left-0 z-40 transition-all duration-500 p-5 fadeIn flex items-center justify-center">
+        <div
+            class="fixed close4 fadeIn bg-[#0000009f] w-full h-screen top-0 left-0  transition-all duration-500 hidden">
+        </div>
+        <i class="fa-solid fa-xmark text-white text-2xl absolute top-5 right-5 cursor-pointer close4"></i>
+        <div
+            class="max-w-7xl w-full mx-auto p-5 rounded-lg max-h-[80vh] popup h-full overflow-auto md:py-10 relative z-20 bg-[#1c1b19]">
+            <p class="text-white">GridRacer is a name born from friction, forged in innovation, and made to lead. It's
+                for those who
+                don't just enter the race — they redefine the grid. <br><br>
+                Think hypercars and hybrid engines. <br><br>
+                Think eSports arenas and Web3 racing leagues. <br><br>
+                Think AI-driven performance platforms, digital speed brands, and next-gen mobility. <br><br>
+                GridRacer.com belongs to the edge of the curve. It speaks to: <br><br>
+                Automotive startups, EV disruptors, and smart mobility ventures
+                Racing game developers and virtual simulation platforms
+                NFT garages, crypto car leagues, and motorsport influencers
+                Performance wearables, fitness tech, or speed-focused innovation labs
+                It’s sleek. It’s high-octane. It’s all torque, no delay. <br><br>
+                Whether it brands the next autonomous vehicle project or becomes the flagship for a digital racing
+                universe, GridRacer is designed to dominate. <br><br>
+                This domain is available for exclusive acquisition.Serious buyers only. No marketplace listings.This
+                is a high-performance digital asset. <br><br>
+                To inquire: info@grandmasterdomains.com <br><br>
+                Own the name. Command the race <br><br>
+            </p>
+        </div>
+    </div>
+    <div id="popup5" style="display: none;"
+        class="fixed border w-full h-screen top-0 left-0 z-40 transition-all duration-500 p-5 fadeIn flex items-center justify-center">
+        <div
+            class="fixed close5 fadeIn bg-[#0000009f] w-full h-screen top-0 left-0  transition-all duration-500 hidden">
+        </div>
+        <i class="fa-solid fa-xmark text-white text-2xl absolute top-5 right-5 cursor-pointer close5"></i>
+        <div
+            class="max-w-7xl w-full mx-auto p-5 rounded-lg max-h-[80vh] popup h-full overflow-auto md:py-10 relative z-20 bg-[#1c1b19]">
+            <p class="text-white">Clipbotics is the future of smooth tech. Its name fuses functionality with
+                sophistication—engineered
+                for robotics, automation, and scalable solutions that feel effortless. <br><br>
+                Clip. Connect. Execute. <br><br>
+                From micro-movements to industrial revolutions. <br><br>
+                Clipbotics is where engineering meets elegance. <br><br>
+                This name is tailor-made for: <br><br>
+                Robotic startups and AI-integrated tools
+                Smart home automation platforms or wearable tech
+                Biotech device makers, sensor manufacturers, and control system innovators
+                UX-focused enterprise SaaS tools or plug-and-play solutions
+                Clipbotics.com offers clean symmetry, brandability, and versatility. <br><br>
+                It sounds like a product. Feels like a platform. Moves like a machine. <br><br>
+                Perfect for companies that build seamless systems, create intelligent hardware, or optimize the
+                invisible workflows of tomorrow. <br><br>
+                This domain is available for exclusive acquisition.Private inquiries only. No public listings.This
+                is refined utility made digital. <br><br>
+                To inquire: info@grandmasterdomains.com <br><br>
+                Built for function. Ready to brand. <br><br>
+            </p>
+        </div>
+    </div>
+    <div id="popup6" style="display: none;"
+        class="fixed border w-full h-screen top-0 left-0 z-40 transition-all duration-500 p-5 fadeIn flex items-center justify-center">
+        <div
+            class="fixed close6 fadeIn bg-[#0000009f] w-full h-screen top-0 left-0  transition-all duration-500 hidden">
+        </div>
+        <i class="fa-solid fa-xmark text-white text-2xl absolute top-5 right-5 cursor-pointer close6"></i>
+        <div
+            class="max-w-7xl w-full mx-auto p-5 rounded-lg max-h-[80vh] popup h-full overflow-auto md:py-10 relative z-20 bg-[#1c1b19]">
+            <p class="text-white">CleverMorph is the perfect fusion of intelligence and evolution. It evokes
+                transformation driven by
+                design—the power to reshape, rebrand, reimagine. <br><br>
+                Clever. Because it learns.Morph. Because it changes everything. <br><br>
+                CleverMorph.com is ideal for: <br><br>
+                AI platforms that evolve with user behavior
+                Rebranding tools or identity-building engines
+                Adaptive tech startups, UX design systems, or dynamic no-code platforms
+                Think tanks, neural networks, or self-optimizing cloud services
+                It’s sharp, agile, and irresistibly brandable. <br><br>
+                Whether you're building the next intelligent SaaS layer or crafting a visual metamorphosis engine,
+                CleverMorph makes change your advantage. <br><br>
+                This domain is available for exclusive acquisition.Inquiries only. No marketplace listings.This is
+                adaptive innovation, captured in a name. <br><br>
+                To inquire: info@grandmasterdomains.com <br><br>
+                Built for transformation. Branded for brilliance. <br><br>
+            </p>
+        </div>
+    </div>
+    <div id="popup7" style="display: none;"
+        class="fixed border w-full h-screen top-0 left-0 z-40 transition-all duration-500 p-5 fadeIn flex items-center justify-center">
+        <div
+            class="fixed close7 fadeIn bg-[#0000009f] w-full h-screen top-0 left-0  transition-all duration-500 hidden">
+        </div>
+        <i class="fa-solid fa-xmark text-white text-2xl absolute top-5 right-5 cursor-pointer close7"></i>
+        <div
+            class="max-w-7xl w-full mx-auto p-5 rounded-lg max-h-[80vh] popup h-full overflow-auto md:py-10 relative z-20 bg-[#1c1b19]">
+            <p class="text-white">ZapClouds is lightning in the cloud. <br><br>
+                It’s made for brands that move fast, store smart, and build for scale. Whether it’s software,
+                infrastructure, or an idea that needs reach, ZapClouds.com delivers. <br><br>
+                Zap — instant, electric, powerfulClouds — scalable, global, ever-present
+                ZapClouds.com fits: <br><br>
+                Cloud infrastructure startups and devops platforms
+                Serverless tech, edge computing, and API-first architectures
+                AI hosting, fast CDNs, and no-lag SaaS systems
+                Modern productivity tools or consumer-facing speed apps
+                It feels modern. It sounds fast. It scales globally. <br><br>
+                From launch-ready tech to enterprise-level infrastructure, ZapClouds is a name you can charge up.
+                <br><br>
+                This domain is available for exclusive acquisition.Private inquiries only. No marketplaces.This is
+                velocity at the speed of brand. <br><br>
+                To inquire: info@grandmasterdomains.com <br><br>
+                Move faster. Build stronger. Zap everything.
+            </p>
+        </div>
+    </div>
+    <div id="popup8" style="display: none;"
+        class="fixed border w-full h-screen top-0 left-0 z-40 transition-all duration-500 p-5 fadeIn flex items-center justify-center">
+        <div
+            class="fixed close8 fadeIn bg-[#0000009f] w-full h-screen top-0 left-0  transition-all duration-500 hidden">
+        </div>
+        <i class="fa-solid fa-xmark text-white text-2xl absolute top-5 right-5 cursor-pointer close8"></i>
+        <div
+            class="max-w-7xl w-full mx-auto p-5 rounded-lg max-h-[80vh] popup h-full overflow-auto md:py-10 relative z-20 bg-[#1c1b19]">
+            <p class="text-white">MyrHeka is a name forged from two of the most powerful forces in ancient Egyptian
+                civilization: the
+                pyramid and divine creation. <br><br>
+                Myr → the ancient Egyptian word for pyramid. Structure, mystery, impossible precision. <br><br>
+                Heka → the name of sacred magic. A creative force. A healer. A god. <br><br>
+                Together they form a brand that speaks across millennia—where ancient intelligence meets the cutting
+                edge. <br><br>
+                MyrHeka.com evokes: <br><br>
+                Advanced biotech infused with ancient knowledge
+                Regenerative AI, sound healing, or consciousness tech
+                A premium NFT collection or digital mythos
+                A ritual-based luxury brand for modern mystics
+                A visionary film, fashion label, or wearable technology brand
+                This is a name of power. <br><br>
+                Of resonance. Of memory. <br><br>
+                It is not just about what we build, but how we build it—and why. <br><br>
+                Perfect for founders who see the sacred in the synthetic, the divine in the digital, and the future
+                in the forgotten. <br><br>
+                This domain is available for exclusive acquisition.Private inquiries only. No marketplace
+                listings.This is ancient intelligence, reborn as brand. <br><br>
+                To inquire: info@grandmasterdomains.com <br><br>
+                Own the source code of civilization.
+            </p>
+        </div>
+    </div>
+    <div id="popup9" style="display: none;"
+        class="fixed border w-full h-screen top-0 left-0 z-40 transition-all duration-500 p-5 fadeIn flex items-center justify-center">
+        <div
+            class="fixed close9 fadeIn bg-[#0000009f] w-full h-screen top-0 left-0  transition-all duration-500 hidden">
+        </div>
+        <i class="fa-solid fa-xmark text-white text-2xl absolute top-5 right-5 cursor-pointer close9"></i>
+        <div
+            class="max-w-7xl w-full mx-auto p-5 rounded-lg max-h-[80vh] popup h-full overflow-auto md:py-10 relative z-20 bg-[#1c1b19]">
+            <p class="text-white">Forged by Roman hands in the 4th century, the Lycurgus Cup is made of dichroic glass —
+                a material
+                that changes color depending on the light. Green in direct light, red when backlit. <br><br>
+                This ancient marvel operates on the same principles as modern nanotechnology. <br><br>
+                Long before electron microscopes or photonic sensors, the creators of the Lycurgus Cup manipulated
+                materials at a scale modern science is still learning to understand. It is not just art. It is
+                impossible knowledge, encoded in glass. <br><br>
+                LycurgusLabs.com revives that legacy — where ancient intelligence converges with next-gen
+                innovation. <br><br>
+                It is a name fit for: <br><br>
+                Nanomaterials and quantum computing startups
+                AI-driven optics, light technology, or imaging firms
+                Deep-tech research labs working on next-gen materials
+                Neural interface and cybernetics developers
+                Visionary cinematic studios blending tech and myth
+                This name carries with it mystery, elegance, and latent power. <br><br>
+                It implies that technology is not new — it’s remembered. <br><br>
+                That the future is not being built from scratch — it’s being decoded. <br><br>
+                This domain is available for exclusive acquisition. <br><br>
+                Private inquiries only. No public listings. <br><br>
+                This is heritage-level branding, engineered for elite innovation. <br><br>
+                To inquire: info@grandmasterdomains.com <br><br>
+                The ancients knew more than we think. LycurgusLabs is here to finish what they started. <br><br>
+            </p>
+        </div>
+    </div>
+
+    <div class="md:mt-16 mt-10" id="footer"></div>
+
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const allElements = document.querySelectorAll("[class*='openPopup']");
+
+            allElements.forEach(opener => {
+                const matchedClass = Array.from(opener.classList).find(cls => cls.startsWith("openPopup"));
+                if (!matchedClass) return;
+
+                const popupNumber = matchedClass.replace("openPopup", "");
+                const popup = document.getElementById(`popup${popupNumber}`);
+                const closeElements = document.querySelectorAll(`.close${popupNumber}`);
+
+                if (!popup) return;
+
+                // Open popup
+                opener.addEventListener("click", () => {
+                    popup.style.display = "flex";
+                    popup.style.opacity = "0";
+
+                    closeElements.forEach(el => {
+                        el.style.display = "block";
+                        el.style.opacity = "0";
+                    });
+
+                    setTimeout(() => {
+                        popup.style.opacity = "1";
+                        closeElements.forEach(el => {
+                            el.style.opacity = "1";
+                        });
+                    }, 50);
+                });
+
+                // Close popup
+                closeElements.forEach(closeBtn => {
+                    closeBtn.addEventListener("click", () => {
+                        popup.style.opacity = "0";
+                        closeElements.forEach(el => el.style.opacity = "0");
+
+                        setTimeout(() => {
+                            popup.style.display = "none";
+                            closeElements.forEach(el => el.style.display = "none");
+                        }, 500);
+                    });
+                });
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>
