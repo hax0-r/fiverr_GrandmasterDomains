@@ -1,6 +1,6 @@
-const lenis = new Lenis({
-  autoRaf: true,
-});
+// const lenis = new Lenis({
+//   autoRaf: true,
+// });
 
 const bottomToTopScroll = document.getElementById("bottomToTopScroll");
 
