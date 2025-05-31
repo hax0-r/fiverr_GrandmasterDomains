@@ -12,7 +12,7 @@ footer.innerHTML = `
                     </li>
                     <li><a href="/about.html" class=" text-gray-100 hover:opacity-80 transition-all duration-500">About</a>
                     </li>
-                    <li><a href="#feature"
+                    <li><a href="/feature.html"
                             class=" text-gray-100 hover:opacity-80 transition-all duration-500">Feature</a></li>
                     <li><a href="/contact.html" class=" text-gray-100 hover:opacity-80 transition-all duration-500">Contact
                             Us</a></li>

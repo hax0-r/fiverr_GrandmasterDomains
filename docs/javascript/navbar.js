@@ -21,14 +21,14 @@ navbar.innerHTML = `
                                     class="absolute hidden w-52 fadeIn group-hover:flex top-5 pt-2 left-0 bg-[#080909] z-30 flex-col">
                                     <a href="/ainuko.html"
                                         class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">Ainuko</a>
-                                    <a href="/#.html"
+                                    <a href="#"
                                         class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">Grandmaster</a>
-                                    <a href="/#.html"
+                                    <a href="#"
                                         class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">MardAgamra</a>
                                 </div>
                             </a>
                         </li>
-                        <li><a href="#features" class="hover:text-[#e7cf2d] font-medium transition-all duration-500">Features
+                        <li><a href="/feature.html" class="hover:text-[#e7cf2d] font-medium transition-all duration-500">Features
                             </a>
                         </li>
                     </ul>
@@ -77,14 +77,14 @@ navbar.innerHTML = `
                     <div id="content-1" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
                         <div class="pb-5">
                             <ul class="space-y-6 pl-3 pt-6 text-gray-400">
-                                <li><a class="text-nowrap" href="/#.html">Grandmaster</a></li>
+                                <li><a class="text-nowrap" href="#">Grandmaster</a></li>
                                 <li><a class="text-nowrap" href="/ainuko.html">Ainuko</a></li>
-                                <li><a class="text-nowrap" href="/#">MardAgamra</a></li>
+                                <li><a class="text-nowrap" href="#">MardAgamra</a></li>
                             </ul>
                         </div>
                     </div>
                 </li>
-                <li><a href="#features"
+                <li><a href="/feature.html"
                         class="hover:text-[#e7cf2d] mobileMenuCloseBtn text-nowrap transition-all duration-500">Features</a>
                 </li>
             </ul>
