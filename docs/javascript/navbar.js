@@ -8,30 +8,27 @@ navbar.innerHTML = `
             </a>
             <div class="flex items-center gap-10">
                 <div class="md:flex items-center gap-10 hidden">
-                    <ul data-aos="fade-left" class="md:flex hidden items-center text-zinc-300 gap-10">
-                        <li><a href="./index.html" class="hover:text-[#e7cf2d] font-medium transition-all duration-500">Home </a>
-                        </li>
-                        <li><a href="/about.html" class="hover:text-[#e7cf2d] font-medium transition-all duration-500">About
-                            </a>
-                        </li>
-                        <li class="relative group"><a
-                                class="hover:text-[#c99b39] cursor-pointer flex items-center gap-2 tracking-wide font-medium transition-all duration-500">Domains <i
-                                    class="fa-solid fa-angle-down group-hover:rotate-180 transition-all duration-500"></i>
-                                <div id="dropdownMenu"
-                                    class="absolute hidden w-52 fadeIn group-hover:flex top-5 pt-2 left-0 bg-[#080909] z-30 flex-col">
-                                    <a href="#"
-                                        class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">Ainuko</a>
-                                    <a href="/grandmaster.html"
-                                        class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">Grandmaster</a>
-                                    <a href="/mardagamra.html"
-                                        class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">MardAgamra</a>
-                                </div>
-                            </a>
-                        </li>
-                        <li><a href="/feature.html" class="hover:text-[#e7cf2d] font-medium transition-all duration-500">Features
-                            </a>
-                        </li>
-                    </ul>
+                    <ul data-aos="fade-left" class="md:flex  hidden items-center text-zinc-300 gap-10">
+  <li><a href="./index.html" class="hover:text-[#e7cf2d] font-medium transition-all duration-500">Home</a></li>
+  <li><a href="/about.html" class="hover:text-[#e7cf2d] font-medium transition-all duration-500">About</a></li>
+
+  <li class="relative ">
+    <button id="dropdownToggle"
+      class="hover:text-[#c99b39] cursor-pointer flex items-center gap-2 tracking-wide font-medium transition-all duration-500">
+      Domains
+      <i class="fa-solid fa-angle-down transition-transform duration-500" id="dropdownIcon"></i>
+    </button>
+    <div id="dropdownMenu"
+      class="absolute fadeIn hidden w-52 top-10 pt-2 left-0 bg-[#080909] z-30 flex-col">
+      <a href="#" class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">Ainuko</a>
+      <a href="/grandmaster.html" class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">Grandmaster</a>
+      <a href="/mardagamra.html" class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">MardAgamra</a>
+    </div>
+  </li>
+
+  <li><a href="/feature.html" class="hover:text-[#e7cf2d] font-medium transition-all duration-500">Features</a></li>
+</ul>
+
                 </div>
                 <a data-aos="fade-left" href="/contact.html"
                     class="relative cursor-pointer py-4 px-8 text-center md:inline-flex hidden justify-center text-base uppercase text-zinc-300 rounded-lg border-solid transition-transform duration-300 ease-in-out group outline-offset-4 focus:outline focus:outline-2 focus:outline-white focus:outline-offset-4 overflow-hidden">
@@ -95,11 +92,27 @@ navbar.innerHTML = `
     </div>
 `
 
+const toggleBtn = document.getElementById('dropdownToggle');
+const dropdownMenu = document.getElementById('dropdownMenu');
+const dropdownIcon = document.getElementById('dropdownIcon');
+
+toggleBtn.addEventListener('click', () => {
+    dropdownMenu.classList.toggle('hidden');
+    dropdownIcon.classList.toggle('rotate-180');
+});
+
+// Optional: Close the dropdown if clicked outside
+document.addEventListener('click', (event) => {
+    const isClickInside = toggleBtn.contains(event.target) || dropdownMenu.contains(event.target);
+    if (!isClickInside) {
+        dropdownMenu.classList.add('hidden');
+        dropdownIcon.classList.remove('rotate-180');
+    }
+});
 
 const mobileMenuBtn = document.getElementById("mobileMenuBtn");
 const mobileMenu = document.getElementById("mobileMenu");
 const nav = document.getElementById("nav");
-const dropdownMenu = document.getElementById("dropdownMenu");
 const mobileMenuCloseBtns = document.querySelectorAll(".mobileMenuCloseBtn");
 
 mobileMenuBtn.addEventListener("click", () => {
