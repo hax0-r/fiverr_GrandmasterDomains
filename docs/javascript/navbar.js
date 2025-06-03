@@ -21,7 +21,7 @@ navbar.innerHTML = `
     <div id="dropdownMenu"
       class="absolute fadeIn hidden w-52 top-10 pt-2 left-0 bg-[#080909] z-30 flex-col">
       <a href="/feature.html" class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">Ainuko</a>
-      <a href="/grandmaster.html" class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">Grandmaster</a>
+      <a href="/grandmaster.html" class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">All Domains</a>
       <a href="/mardagamra.html" class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">MardAgamra</a>
     </div>
   </li>
@@ -74,7 +74,7 @@ navbar.innerHTML = `
                     <div id="content-1" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
                         <div class="pb-5">
                             <ul class="space-y-6 pl-3 pt-6 text-gray-400">
-                                <li><a class="text-nowrap" href="/grandmaster.html">Grandmaster</a></li>
+                                <li><a class="text-nowrap" href="/grandmaster.html">All Domains</a></li>
                                 <li><a class="text-nowrap" href="/feature.html">Ainuko</a></li>
                                 <li><a class="text-nowrap" href="/mardagamra.html">MardAgamra</a></li>
                             </ul>
