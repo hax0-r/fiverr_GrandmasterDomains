@@ -20,7 +20,7 @@ navbar.innerHTML = `
     </button>
     <div id="dropdownMenu"
       class="absolute fadeIn hidden w-52 top-10 pt-2 left-0 bg-[#080909] z-30 flex-col">
-      <a href="#" class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">Ainuko</a>
+      <a href="/feature.html" class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">Ainuko</a>
       <a href="/grandmaster.html" class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">Grandmaster</a>
       <a href="/mardagamra.html" class="p-5 hover:bg-[#c99b39] hover:text-white text-nowrap transition-all duration-500 block">MardAgamra</a>
     </div>
@@ -32,7 +32,7 @@ navbar.innerHTML = `
                 </div>
                 <a data-aos="fade-left" href="/contact.html"
                     class="relative cursor-pointer py-4 px-8 text-center md:inline-flex hidden justify-center text-base uppercase text-zinc-300 rounded-lg border-solid transition-transform duration-300 ease-in-out group outline-offset-4 focus:outline focus:outline-2 focus:outline-white focus:outline-offset-4 overflow-hidden">
-                    <span class="relative z-20">Contact Us</span>
+                    <span class="relative z-20">Inquiry</span>
                     <span
                         class="absolute left-[-75%] top-0 h-full w-[50%] bg-white/20 rotate-12 z-10 blur-lg group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
 
@@ -75,7 +75,7 @@ navbar.innerHTML = `
                         <div class="pb-5">
                             <ul class="space-y-6 pl-3 pt-6 text-gray-400">
                                 <li><a class="text-nowrap" href="/grandmaster.html">Grandmaster</a></li>
-                                <li><a class="text-nowrap" href="#">Ainuko</a></li>
+                                <li><a class="text-nowrap" href="/feature.html">Ainuko</a></li>
                                 <li><a class="text-nowrap" href="/mardagamra.html">MardAgamra</a></li>
                             </ul>
                         </div>
@@ -86,8 +86,7 @@ navbar.innerHTML = `
                 </li>
             </ul>
             <a href="/contact.html"
-                class="text-center block mobileMenuCloseBtn w-full p-3 border text-gray-300 text-nowrap border-zinc-700 mt-5 rounded-lg cursor-pointer">Contact
-                us</a>
+                class="text-center block mobileMenuCloseBtn w-full p-3 border text-gray-300 text-nowrap border-zinc-700 mt-5 rounded-lg cursor-pointer">Inquiry</a>
         </div>
     </div>
 `
